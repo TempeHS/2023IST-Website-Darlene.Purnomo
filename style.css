@@ -1,3 +1,10 @@
+
+@import url (@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+BODY { 
+font-family:'Varela Round', sans-serif;
+}
+
 DIV{
 	border:1px solid #000000;
 }
@@ -25,14 +32,14 @@ background: url(images/banner.png) no-repeat;
 
 #FooterLeft {
 	float:left;
-	width:399px; /*49.5%*/
+	width:0.5vw;
 	height:50px;
 	border: 1px solid green;
 }
 
 #FooterRight {
 	float:right;
-	width:399px; /*49.5%*/
+	width:0.5vw;
 	height:50px;
 	border: 1px solid red;
 }
