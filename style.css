@@ -83,5 +83,11 @@ transition: 0.4s;
 .button-1: hover {
 color: #FFF;
 background-color: #FFCE00;
+} 
+
+.button-2 {
+color: #FE4880;
+border: 3px solid #FE4880;
+background-image: linear-gradient(to right, transparent 50%, #FE4880 50%);
 }
 	
