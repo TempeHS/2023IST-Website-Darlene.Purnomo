@@ -51,4 +51,10 @@ box-sizing: border-box;
 font-family: 'Sono', sans-serif;
 	}
 	
-	
+.button-container {
+	display: flex;
+	width: 100%; 
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
