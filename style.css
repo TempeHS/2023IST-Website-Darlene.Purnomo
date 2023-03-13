@@ -98,38 +98,8 @@ color: #FFF;
 background-position: 100%;
 }
 
-.button-3{
-position: relative;
-}
 
-.button-3:after , .button:before {
-content: '';
-position: absolute;
-width: 0;
-height: 0;
-transition: all 0.4s, opacity 0.1s 0.4s;
-opacity: 0;
-}
 
-.button-3:after {
-bottom: 0;
-right: 0;
-border-bottom: 3px solid #212121;
-border-right: 3px solid #212121
-} 
-
-.button-3:before {
-top: 0;
-left: 0;
-border-left: 3px solid #212121;
-border-top: 3px solid #212121;
-}
-
-.button-3:hover:after, .button-3:hover:before {
-width: calc(100%+15px);
-height: calc(100%+15px);
-transition: 0.4s, opacity 0.1s;
-opacity: 1; 
 
 
 	
