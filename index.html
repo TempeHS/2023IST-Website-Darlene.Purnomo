@@ -12,6 +12,21 @@
       body {
          font-family: 'Montserrat', sans-serif;
       }
+	  .carousel-caption {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: auto;
+      background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background color to the caption */
+      padding: 20px;
+    }
+
+    .carousel-caption h3,
+    .carousel-caption p {
+      font-size: 24px; /* Adjust the font size as desired */
+      color: #fff; /* Optional: Change the text color */
+    }
    </style>
 </head>
 
@@ -90,8 +105,8 @@
     <div class="carousel-item active">
       <img src="https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80"class="d-block w-100" alt="...">
       <div class="carousel-caption">
-        <h3>We know you are sleep deprived</h3>
-        <p>Get some help</p>
+        <h3 class="text-lg">We know you are sleep deprived</h3>
+        <p class="text-lg">Get some help</p>
       </div>
 	</div>
     <div class="carousel-item">
@@ -110,6 +125,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
 
 <!-- HERO SLIDER BLOCK ENDS HERE -->
 
